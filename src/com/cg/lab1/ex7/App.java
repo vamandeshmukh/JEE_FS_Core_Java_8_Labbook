@@ -27,19 +27,14 @@ public class App {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
-
 		System.out.println("Please enter a number: ");
-
 		int number = sc.nextInt();
-
 		sc.close();
-
 		boolean result = App.checkNumber(number);
 
-		if (result) {
+		if (result)
 			System.out.println("This is an increasing number.");
-		} else {
+		else
 			System.out.println("This is NOT an increasing number.");
-		}
 	}
 }
