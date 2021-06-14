@@ -1,4 +1,4 @@
-package com.cg.lab1.ex1.demo;
+package com.cg.lab1.ex1;
 
 /*
  * Exercise 1: Create a method to find the sum of the cubes of the digits of an n digit number
